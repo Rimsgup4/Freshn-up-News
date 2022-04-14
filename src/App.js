@@ -20,7 +20,6 @@ setProgress=(progress)=>{
 }
   render() {
     return (
-      <>
         <div>
           <Router>
             <Navbar />
@@ -40,7 +39,6 @@ setProgress=(progress)=>{
             </Switch>
           </Router>
         </div>
-      </>
     )
   }
 }
